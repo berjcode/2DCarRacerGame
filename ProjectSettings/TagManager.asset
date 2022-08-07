@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MainCar
+  - OverTaking
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1201894871
+    locked: 0
+  - name: Score
+    uniqueID: 3468938671
+    locked: 0
+  - name: Way
+    uniqueID: 358925203
+    locked: 0
+  - name: CarNPC
+    uniqueID: 35292273
+    locked: 0
+  - name: Car
+    uniqueID: 1662585965
+    locked: 0
+  - name: Vinyet
+    uniqueID: 1400854911
+    locked: 0
