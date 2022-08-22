@@ -17,7 +17,7 @@ public class Way : MonoBehaviour
             Instantiate(way, spawLocation, Quaternion.identity);
             wayCreate = true;
             ScoreManager.score += 10;
-            Destroy(this.gameObject,10f);
+            Destroy(this.gameObject,25f);
         }
 
 

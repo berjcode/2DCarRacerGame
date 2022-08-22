@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
 {
     public Text scoreText;
     public static int score = 0;
-    public   Text extraScore;
+    
 
 
 
@@ -18,7 +18,8 @@ public class ScoreManager : MonoBehaviour
     {
      
         scoreText.text = score.ToString();
-        extraScore.text=score.ToString();
+        
+       
 
     }
 }

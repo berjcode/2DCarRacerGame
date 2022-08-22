@@ -84,6 +84,7 @@ public class CarNPC : MonoBehaviour
         if(contact.gameObject.tag=="MainCar")
         {
             SceneManager.LoadScene(2);
+            ScoreManager.score = 0;
         }
     }
 
@@ -92,7 +93,7 @@ public class CarNPC : MonoBehaviour
         if(collision.gameObject.tag=="OverTaking")
         {
             ScoreManager.score += 20;
-            manager.extraScore.text = "x25" + ScoreManager.score;
+           
         }
     }
 }
